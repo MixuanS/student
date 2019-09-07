@@ -13,7 +13,7 @@ import java.util.List;
  */
 public interface UserDao {
     /**
-     * 查询所有操作 新增的test分支
+     * 查询所有操作 新增的secondtest分支
      * @return
      */
     List<User> findAll();
