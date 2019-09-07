@@ -13,7 +13,7 @@ import java.util.List;
  */
 public interface UserDao {
     /**
-     * 查询所有操作 666
+     * 查询所有操作
      * @return
      */
     List<User> findAll();
