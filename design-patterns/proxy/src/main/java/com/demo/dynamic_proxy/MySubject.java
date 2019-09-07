@@ -1,0 +1,10 @@
+package com.demo.dynamic_proxy;
+
+/**
+ * @author hc
+ * @version 1.0.0
+ * @date 2019/9/3
+ */
+public class MySubject implements Subject {
+
+}

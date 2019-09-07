@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AjcSettings">
+    <option name="ajcPath" value="$MAVEN_REPOSITORY$/org/aspectj/aspectjtools/1.8.7/aspectjtools-1.8.7.jar" />
+    <option name="delegateToJavac" value="true" />
+  </component>
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="algorithms" />
+        <module name="java-virtual-machine" />
+        <module name="autowired" />
+        <module name="proxy" />
+        <module name="14-courrent" />
+        <module name="mybatis" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="02-wiring" target="1.5" />
+      <module name="04-aop" target="1.8" />
+      <module name="05-base-springmvc" target="1.5" />
+      <module name="12-nosql" target="1.5" />
+      <module name="multithread" target="1.5" />
+      <module name="mysql" target="1.5" />
+      <module name="redis" target="1.5" />
+      <module name="spring-actual-combat" target="1.5" />
+      <module name="stereo-autoconfig" target="1.5" />
+      <module name="stereo-xmlconfig" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
