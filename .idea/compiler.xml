@@ -11,12 +11,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="algorithms" />
+        <module name="mybatis" />
+        <module name="container" />
         <module name="java-virtual-machine" />
         <module name="autowired" />
+        <module name="multithread" />
         <module name="proxy" />
-        <module name="14-courrent" />
-        <module name="mybatis" />
+        <module name="adapter" />
+        <module name="algorithms" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
@@ -24,7 +26,8 @@
       <module name="04-aop" target="1.8" />
       <module name="05-base-springmvc" target="1.5" />
       <module name="12-nosql" target="1.5" />
-      <module name="multithread" target="1.5" />
+      <module name="14-courrent" target="1.8" />
+      <module name="java-core-technology" target="1.8" />
       <module name="mysql" target="1.5" />
       <module name="redis" target="1.5" />
       <module name="spring-actual-combat" target="1.5" />

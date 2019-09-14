@@ -1,0 +1,12 @@
+<hibernate-mapping xmlns="http://www.hibernate.org/xsd/hibernate-mapping">
+    <!--    表与表之间的映射关系-->
+    <class name="com.xxx.Order" table="t_order">
+        <!--        主键映射-->
+        <id name="id" column="id"/>
+        <!--        属性映射-->
+        <property name="address" column="address"/>
+        <property name="tele" column="tele"/>
+        <!--        表之间关系映射-->
+        <many-to-one name="user" column="user_id"></many-to-one>
+    </class>
+</hibernate-mapping>
